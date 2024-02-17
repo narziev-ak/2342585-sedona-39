@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Анвар Нарзиев](https://up.htmlacademy.ru/htmlcss/39/user/2342585).
-* Наставник:[Иван Жарков](https://htmlacademy.ru/profile/id191422) .
+* Наставник:[Иван Жарков](https://htmlacademy.ru/profile/id191422).
 
 ---
 
