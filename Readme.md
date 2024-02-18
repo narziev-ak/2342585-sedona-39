@@ -2,7 +2,7 @@
 
 * Студент: [Анвар Нарзиев](https://up.htmlacademy.ru/htmlcss/39/user/2342585).
 * Наставник:[Иван Жарков](https://htmlacademy.ru/profile/id191422).
-*Сайт:[Добавляет сайт своего проекта Седона](https://narziev-ak.github.io/2342585-sedona-39/).
+* Сайт:[Добавляет сайт своего проекта Седона](https://narziev-ak.github.io/2342585-sedona-39/).
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
