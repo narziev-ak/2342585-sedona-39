@@ -5,88 +5,122 @@
     <meta charset="utf-8">
     <title>Гостиницы в Седоне</title>
   </head>
-<body>
-  <header class="page-header">
-    <a class="navigation-logo" href="index.html">
-      <img class="page-header-logo" src="images/logo.svg" width="138" height="64" alt="Логотип сайта города Седона">
-    </a>
-    <nav class="navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="index.html">Главная</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="№">О седоне</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="catalog.html" aria-current="page">Гостиницы</a>
-        </li>
-      </ul>
-      <ul class="navigation-list navigation-user">
-        <li class="navigation-item">
-          <a class="navigation-link" href="№">
-            <span class="visually-hidden">
-              Поиск
-            </span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="№">
-            <span class="visually-hidden">
-              Избранное12
-            </span>
-          </a>
-      </ul>
-      <a class="navigation-button-link" href="catalog.html">Хочу сюда!</a>
-    </nav>
-  </header>
-  <main class="main-inner">
-    <header class="inner-nav">
-      <h1 class="inner-title">Гостиницы Седона</h1>
-      <ul class="breadcrumbs-list">
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="index.html">Главная</a>
-        </li>
-        <li class="breadcrumbs-item">
-          <a class="breadcrumbs-link" href="catalog.html" aria-current="page">Гостиницы</a>
-        </li>
-      </ul>
-    </header>
-    <section class="subscribe">
-      <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
-      <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label for="subscribe-email"></label>
-        <input class="field" placeholder="Ваш email" type="email" name="subscribe-email" id="subscribe-email"
-          required>
-        <button class="button subcribe-button" type="submit">
-          Отправить
-        </button>
-    </section>
-    <section footer>
-      <h2 class="visually-hidden">Социальные сети</h2>
-      <ul class="social-list">
-        <li class="social-item">
-          <a class="visually-hidden" href="">
-            <span class="visually-hidden">ВКонтакте</span>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="visually-hidden" href="">
-            <span class="visually-hidden">Телеграм</span>
-          </a>
-        </li>
-        <li class="social-item">
-          <a class="visually-hidden" href="">
-            <span class="visually-hidden">YouTube</span>
-          </a>
-        </li>
-      </ul>
-      <a class="contacts-phone" href="tel:+7 (812) 812-12-12">+7 (812) 812-12-12</a>
-      <a class="author-logo" href="https://htmlacademy.ru">
-      <img class="academy-logo" src="images/logo_htmlacademy.png" alt="Логотип htmlacademy. Переход на сайт HTML Academy">
+
+  <body>
+    <header class="page-header">
+      <a class="navigation-logo" href="index.html">
+        <img class="page-header-logo" src="images/logo.svg" width="138" height="64" alt="Логотип сайта города Седона">
       </a>
-    </section>
-  </main>
-</body>
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="№">О седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html" aria-current="page">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="№">
+              <span class="visually-hidden">
+                Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="№">
+              <span class="visually-hidden">
+                Избранное12
+              </span>
+            </a>
+        </ul>
+        <a class="navigation-button-link" href="catalog.html">Хочу сюда!</a>
+      </nav>
+    </header>
+    <main class="main-inner">
+      <header class="inner-nav">
+        <h1 class="inner-title">Гостиницы Седона</h1>
+        <ul class="breadcrumbs-list">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">
+              <span class="visually-hidden">
+                Главная
+              </span>
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="catalog.html" aria-current="page">Гостиницы</a>
+          </li>
+        </ul>
+      </header>
+      <section class="filter-content">
+        <h2 class="visually-hidden">Фильтр гостиниц</h2>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get"></form>
+        <fieldset class="catalog-filter-group">
+          <legend class="catalog-filter-title">Инфраструктура</legend>
+          <ul class="catalog-filter-list">
+            <li class="catalog-filter-item">
+              <label class="controls" for="pool">
+                <input class="controls-input" type="checkbox" name="pool" id="pool" checked>
+                Бассейн
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="controls" for="pool">
+                <input class="controls-input" type="checkbox" name="pool" id="pool" checked>
+                Парковка
+              </label>
+            </li>
+            <li class="catalog-filter-item">
+              <label class="controls" for="pool">
+                <input class="controls-input" type="checkbox" name="pool" id="pool">
+                Wi-Fi
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <section class="subscribe">
+        <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+        <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="subscribe-email"></label>
+          <input class="field" placeholder="Ваш email" type="email" name="subscribe-email" id="subscribe-email"
+            required>
+          <button class="button subcribe-button" type="submit">
+            Отправить
+          </button>
+      </section>
+      <section footer>
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul class="social-list">
+          <li class="social-item">
+            <a class="visually-hidden" href="">
+              <span class="visually-hidden">ВКонтакте</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="visually-hidden" href="">
+              <span class="visually-hidden">Телеграм</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="visually-hidden" href="">
+              <span class="visually-hidden">YouTube</span>
+            </a>
+          </li>
+        </ul>
+        <a class="contacts-phone" href="tel:+7 (812) 812-12-12">+7 (812) 812-12-12</a>
+        <a class="author-logo" href="https://htmlacademy.ru">
+          <img class="academy-logo" src="images/logo_htmlacademy.png"
+            alt="Логотип htmlacademy. Переход на сайт HTML Academy">
+        </a>
+      </section>
+    </main>
+  </body>
+
 </html>
